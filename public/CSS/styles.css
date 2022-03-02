@@ -22,3 +22,40 @@ input{
 button{
     justify-content: center;
 }
+
+.calci{
+  backface-visibility: hidden;
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  background: #fff;
+  border-radius: 100px;
+  border: 4px solid #c93;
+  border-width: 4px 4px 4px 4px;
+  padding: 5px 20px 5px 20px;
+  color: #c93;
+  font-size: 16px;
+  font-family: Helvetica Neue;
+  font-weight: 900;
+  font-style: normal
+}
+
+.bmi_button{
+    backface-visibility: hidden;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    background: linear-gradient(90deg,#1d953f 0%,#209542 20.343056921228012%,#4dde76 20.343056921228012%,#4dde76 100%);
+    border-radius: 5px;
+    border: 0px solid #444444;
+    border-width: 0px 0px 0px 0px;
+    padding: 10px 24px 10px 50px;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: arial;
+    font-weight: 100;
+    font-style: normal;
+    text-decoration: none;
+}
